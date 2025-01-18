@@ -1,0 +1,104 @@
+/* Основні стилі для тіла сторінки */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7; /* Світло-сірий фон */
+  color: #333; /* Темно-сірий текст */
+}
+
+/* Стилі для секцій */
+section {
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #ffffff; /* Білий фон секцій */
+  border-radius: 8px; /* Закруглені кути */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* М'яка тінь */
+}
+
+/* Заголовки */
+h1 {
+  color: #2f2f2f; /* Темно-сірий колір заголовків */
+  border-bottom: 2px solid #d0d0d0; /* Сіра лінія під заголовком */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #2f2f2f; /* Середньо-сірий колір підзаголовків */
+  margin-top: 20px;
+}
+
+header h1 {
+  text-align: center;
+  color: #2f2f2f; /* Темно-сірий колір заголовків */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #ffffff; /* Білий фон секцій */
+  border-radius: 8px; /* Закруглені кути */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* М'яка тінь */
+}
+
+/* Відступи та форматування абзаців */
+p {
+  margin: 15px 0;
+}
+
+/* Адаптивний дизайн */
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    margin: 10px;
+    padding: 20px;
+  }
+}
+
+a {
+  font-weight: bold;
+  padding: 5px 10px;
+  color: #508cd1;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.custom-list-1 {
+  list-style-type: none; /* Прибираємо стандартну нумерацію */
+  padding-left: 0; /* Видаляємо відступ */
+}
+
+.custom-list-2 {
+  list-style-type: none; /* Прибираємо стандартну нумерацію */
+  padding-left: 2%; /* Видаляємо відступ */
+}
+
+
+.custom-list-1 li::before {
+  content: "- "; /* Додаємо тире перед кожним елементом */
+}
+
+
+.custom-list-2 li::before {
+  content: ""; /* Додаємо тире перед кожним елементом */
+}
+
+h2, h2 {
+  display: inline-block; /* Розміщує елементи в одному рядку */
+}
+
+.left {
+  text-align: left; /* Ліве вирівнювання */
+}
+
+.right {
+  text-align: right; /* Праве вирівнювання */
+  float: right; /* Відправляє другий заголовок праворуч */
+}

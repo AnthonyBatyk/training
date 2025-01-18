@@ -1,0 +1,57 @@
+/* Основні стилі для тіла сторінки */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7; /* Світло-сірий фон */
+  color: #333; /* Темно-сірий текст */
+}
+
+/* Стилі для секцій */
+section {
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #ffffff; /* Білий фон секцій */
+  border-radius: 8px; /* Закруглені кути */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* М'яка тінь */
+}
+
+/* Адаптивний дизайн */
+@media (max-width: 768px) {
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    section {
+      margin: 10px;
+      padding: 20px;
+    }
+}
+  
+a {
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+  
+@media (max-width: 600px) {
+    img {
+      width: 80%; /* Для малих екранів зменшуємо ширину */
+    }
+}
+  
+h3 {
+    color: #cc3b3b;
+    margin-top: 20px;
+    text-align: center;
+}
